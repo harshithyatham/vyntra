@@ -1,0 +1,18 @@
+<div class="card w-25">
+    <div class="card-header">
+        <h2>Vyntra</h2>
+        
+    </div>
+    <div class="card-body">
+        <h4>Login</h4>
+        <input type="text" placeholder="username" required [(ngModel)]="login.username" name="username">
+        <br>
+        <input type="text" placeholder="password" required [(ngModel)]="login.password" name="password">
+        <br>
+        <button class="btn-success" (click)=loginto()>login</button>
+    </div>
+    <div class="card-footer">
+        <a href="*">Home</a>
+        not a member <a href="\reg">Sing up</a>
+    </div>
+</div>
